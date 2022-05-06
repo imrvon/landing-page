@@ -149,10 +149,11 @@
 }
 
 footer {
-    padding: 15px 100px;
+    padding: 10px;
     text-align: center;
     color: #FFFFFF;
     position: fixed;
+    margin: 0 auto;
     width: 100%;
     bottom: 0;
 }
@@ -266,7 +267,7 @@ footer {
     }
 
     .cta {
-        padding: 30px 20px 100px 20px;
+        padding: 30px 20px 70px 20px;
     }
     
     .cta-container {
@@ -304,7 +305,6 @@ footer {
     }
 
     footer {
-        margin: 0 auto;
         text-align: center;
         color: #FFFFFF;
         position: fixed;
