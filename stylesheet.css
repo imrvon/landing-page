@@ -214,7 +214,7 @@ footer {
     .hero-con h2 {
         font-size: 15px;
         margin-top: 30px;
-        padding-bottom: 5px;
+        margin-bottom: 5px;
     }
 
     .hero-con p {
@@ -224,7 +224,6 @@ footer {
     }
     
     .hero-con a {
-        color: #FFFFFF;
         padding: 5px 20px;
         font-size: 10px;
     }
@@ -240,7 +239,7 @@ footer {
     
     .boxes h3 {
         padding-bottom: 25px;
-        font-size: 1.3em;
+        font-size: 1.25em;
     }
     
     .boxes-container {
@@ -257,7 +256,7 @@ footer {
     .boxes-item img {
         width: 100px;
         border-radius: 50%;
-        border: 4px solid #FED500;
+        border: 4px solid #000000;
     }
     
     .boxes-item p {
@@ -289,7 +288,7 @@ footer {
     .cta-container {
         padding: 20px;
         border-radius: 15px;
-        color: #FFFFFF;
+        color: #000000;
     }
     
     .cta-item {
@@ -301,8 +300,8 @@ footer {
     }
     
     .cta-item a {
-        border: 2px solid #FFFFFF;
-        color: #FFFFFF;
+        border: 2px solid #000000;
+        color: #000000;
         font-size: 10px;
         padding: 5px 10px;
         margin-left: 20px;
