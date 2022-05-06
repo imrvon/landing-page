@@ -157,7 +157,7 @@ footer {
     bottom: 0;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
     .header {
         padding: 15px;
         width: 100%;
@@ -165,11 +165,150 @@ footer {
         top: 0;
     }
 
-    .menu, .logo {
-        display: unset;
+    .nav-bar {
+        width: 100%;
     }
 
     .nav-bar .menu {
-        padding-left: unset;
+        padding-left: 5%;
     }
+
+    .hero-container {
+        display: flex;
+        margin: 0px 25px;
+    }
+    
+    .hero {
+        padding-top: 50px;
+    }
+    
+    .hero-con {
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .hero-con img {
+        margin-top: 30px;
+        width: 120px;
+        border-radius: 50%;
+    }
+    
+    .hero-con h2 {
+        font-size: 15px;
+        margin-top: 30px;
+        padding-bottom: 5px;
+    }
+
+    .hero-con p {
+        font-size: 10px;
+        text-align: justify;
+        
+    }
+    
+    .hero-con a {
+        background-color: #3882F6;
+        color: #FFFFFF;
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+    
+    .sign-up {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .boxes {
+        padding: 25px 50px;
+    }
+    
+    .boxes h3 {
+        padding-bottom: 25px;
+        font-size: 1.3em;
+    }
+    
+    .boxes-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .boxes-item {
+        flex: 50%;
+        line-height: 1.6;
+        padding: 10px;
+    }
+    
+    .boxes-item img {
+        width: 100px;
+        border-radius: 50%;
+        border: 4px solid #3882F6;
+    }
+    
+    .boxes-item p {
+        font-size: 10px;
+    }
+
+    .quote {
+        background-color: #E5E7EB;
+        padding: 20px;
+    }
+    
+    .quote-container {
+        padding: 10px 30px;
+    }
+    
+    .quote-container h3 {
+        font-size: 16px;
+    }
+    
+    .quote-container p {
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .cta {
+        padding: 30px 20px 100px 20px;
+    }
+    
+    .cta-container {
+        display: flex;
+        padding: 30px;
+        background-color: #3882F6;
+        border-radius: 15px;
+        color: #FFFFFF;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cta-item {
+        flex: 70%;
+    }
+
+    .cta-button {
+        flex: 30%;
+    }
+    
+    .cta-item a {
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
+        font-size: 10px;
+        padding: 5px 20px;
+    }
+
+    .cta-item h3 {
+        font-size: 10px;
+    }
+    
+    .cta-item p {
+        font-size: 10px;
+    }
+
+    footer {
+        margin: 0 auto;
+        text-align: center;
+        color: #FFFFFF;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
   }
