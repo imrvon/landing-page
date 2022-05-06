@@ -110,7 +110,6 @@
 .boxes-item img {
     width: 150px;
     border-radius: 50%;
-    border: 5px solid #0a0a0a;
 }
 
 .boxes-item p {
@@ -256,7 +255,6 @@ footer {
     .boxes-item img {
         width: 100px;
         border-radius: 50%;
-        border: 4px solid #000000;
     }
     
     .boxes-item p {
@@ -300,7 +298,6 @@ footer {
     }
     
     .cta-item a {
-        border: 2px solid #000000;
         color: #000000;
         font-size: 10px;
         padding: 5px 10px;
