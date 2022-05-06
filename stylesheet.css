@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+.body {
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.hero, .header, footer {
+    background-color: #1F2937;
+}
+
+.menu, .logo {
+    display: inline-block;
+}
+
+.nav-bar .menu {
+    padding-left: 20px;
+}
+
+.nav-bar .menu a {
+    color: #FFFFFF;
+}
+
+.hero-container {
+    display: flex;
+    margin: 0px 50px;
+}
+
+.hero {
+    padding-top: 100px;
+}
+
+.hero-con {
+    display: inline-block;
+    padding: 50px;
+}
+
+.hero-con img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.hero-con h2 {
+    font-size: 3em;
+    margin-top: 25px;
+}
+
+.hero-con p, .hero-con h2 {
+    color: #FFFFFF;
+    line-height: 1.6;
+}
+
+.hero-con a {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    padding: 10px 25px;
+}
+
+.sign-up {
+    margin-top: 20px;
+}
+
+.boxes {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.boxes h3 {
+    padding-bottom: 25px;
+    font-size: 2em;
+}
+
+.boxes-container {
+    display: flex;
+}
+
+.boxes-item {
+    display: inline-block;
+    line-height: 1.6;
+}
+
+.boxes-item img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #3882F6;
+}
+
+.boxes-item p {
+    font-size: 12px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote-container {
+    padding: 50px 100px;
+}
+
+.quote-container h3 {
+    font-size: 30px;
+}
+
+.quote-container p {
+    text-align: right;
+    font-size: 24px;
+}
+
+.cta {
+    padding: 50px 100px 100px 100px;
+}
+
+.cta-container {
+    display: flex;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-item {
+    display: inline-block;
+}
+
+.cta-item a {
+    border: 2px solid #FFFFFF;
+    padding: 5px 25px;
+    color: #FFFFFF;
+}
+
+footer {
+    padding: 15px 100px;
+    text-align: center;
+    color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media screen and (max-width: 420px) {
+    .header {
+        padding: 15px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+
+    .menu, .logo {
+        display: unset;
+    }
+
+    .nav-bar .menu {
+        padding-left: unset;
+    }
+  }
