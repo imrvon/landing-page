@@ -38,6 +38,10 @@
     color: #F9FAF8;
 }
 
+.nav-bar .menu a:hover {
+    color: #FED500;
+}
+
 .hero-container {
     display: flex;
     margin: 0px 50px;
@@ -59,22 +63,29 @@
 
 .hero-con h2 {
     font-size: 3em;
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .hero-con p, .hero-con h2 {
     color: #FFFFFF;
-    line-height: 1.6;
+    line-height: 1.3;
 }
 
 .hero-con a {
-    background-color: #3882F6;
-    color: #FFFFFF;
+    background-color: #FED500;
+    color: #000000;
+    font-weight: 700;
     padding: 10px 25px;
 }
 
+.hero-con a:hover {
+    border: 2px solid rgb(94, 93, 93);
+    color: rgb(94, 93, 93);
+}
+
 .sign-up {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .boxes {
@@ -99,7 +110,7 @@
 .boxes-item img {
     width: 150px;
     border-radius: 50%;
-    border: 5px solid #3882F6;
+    border: 5px solid #0a0a0a;
 }
 
 .boxes-item p {
@@ -131,9 +142,9 @@
 .cta-container {
     display: flex;
     padding: 50px 100px;
-    background-color: #3882F6;
+    background-color: #FED500;
     border-radius: 15px;
-    color: #FFFFFF;
+    color: #000000;
     justify-content: space-between;
     align-items: center;
 }
@@ -143,9 +154,15 @@
 }
 
 .cta-item a {
-    border: 2px solid #FFFFFF;
+    border: 2px solid #000000;
     padding: 5px 25px;
-    color: #FFFFFF;
+    color: #000000;
+    font-weight: 700;
+}
+
+.cta-item a:hover {
+    border: 2px solid rgb(94, 93, 93);
+    color: rgb(94, 93, 93);
 }
 
 footer {
@@ -207,7 +224,6 @@ footer {
     }
     
     .hero-con a {
-        background-color: #3882F6;
         color: #FFFFFF;
         padding: 5px 20px;
         font-size: 10px;
@@ -241,7 +257,7 @@ footer {
     .boxes-item img {
         width: 100px;
         border-radius: 50%;
-        border: 4px solid #3882F6;
+        border: 4px solid #FED500;
     }
     
     .boxes-item p {
@@ -271,13 +287,9 @@ footer {
     }
     
     .cta-container {
-        display: flex;
         padding: 20px;
-        background-color: #3882F6;
         border-radius: 15px;
         color: #FFFFFF;
-        justify-content: space-between;
-        align-items: center;
     }
     
     .cta-item {
